@@ -42,22 +42,20 @@ I encountered two problems that I want to fix:
 
 ##### Current version:
 
+Handles basic errors. Can process m3u files or a folder with m3u files.
+To use:
+Drag and drop the m3u files or folder with m3u files on the bat file. 
+
+
+##### Previous versions:
+
 Proof-of-Concept (PoC)
 
 The PoC version takes an m3u file that is not sorted and has duplicates in the root directory of the project and creates a new m3u file that is sorted and has no duplicates.
 
 
-
-##### Previous versions:
-
-N/A
-
-
-
 ##### Future versions:
 
 * Will handle potential errors
-* Will check the file type before reading the file
-* Will use system arguments to get the original file
-* Will create a new file and delete the old one
-* Will be more uesr-friendly
+* Will be more user-friendly
+
